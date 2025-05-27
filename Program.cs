@@ -5,6 +5,18 @@ class Program
 {
     static void Main(String[] args)
     {
+        bool play = true;
+        while (play)
+        {
+            ShowMenu();
+            Console.WriteLine("Press any key to continue...");
+            Console.ReadKey();
+        }
+       
+    }
+
+    private static void ShowMenu()
+    {
         //Console.WriteLine("Hello, World!");
         Console.Clear(); // Clear the console screen
         Console.WriteLine("welcome to my chattbått");
